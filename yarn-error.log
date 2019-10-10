@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @babel/core @babel/plugin-proposal-class-properties @babel/preset-env @babel/preset-react babel-loader css-loader file-loader style-loader webback webpack-cli webpack-dev-server -D
+
+PATH: 
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\php73;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\php73\ext;C:\Program Files (x86)\Yarn\bin\;D:\Android\sdk\platform-tools;D:\Android\sdk\tools;C:\Program Files\Git\cmd;C:\Ruby23-x64\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\jcaso\AppData\Roaming\npm;C:\Users\jcaso\AppData\Roaming\Composer\vendor\bin;C:\Users\jcaso\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jcaso\AppData\Local\Android\Sdk\platform-tools;%PhpStorm%;C:\Users\jcaso\AppData\Local\Yarn\bin;C:\Users\jcaso\AppData\Local\hyper\app-3.0.2\resources\bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webback: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65939:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140464:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141436:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141358:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "desafio04",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
